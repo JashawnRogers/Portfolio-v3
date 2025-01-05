@@ -28,6 +28,7 @@
     }
     .icons-container {
         margin: 0 auto;
+        width: 95%;
     }
     .section__text-container .section__text__p1 {
         font-size: 1rem;
