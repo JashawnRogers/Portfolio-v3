@@ -8,7 +8,6 @@
 
 body {
     font-family: "Poppins", serif;
-    
 }
 
 html {
@@ -358,4 +357,25 @@ footer {
     display: flex; 
     justify-content: center;
 }
-
+/* -------------------------------------------------------------------------------------------------- */
+/* DARK MODE */
+.dark-mode {
+    background-color: #312f2d;
+    color: white;
+}
+.dark-mode p, .dark-mode a {
+    color: white;
+}
+.dark-mode .masked {
+    display: inline-block;
+    background-color: white;
+    -webkit-mask-size: 95%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-image: url('./assets/linkedin.png');
+}
+.dark-mode .masked img {
+    opacity: 0;
+    width: auto;
+    display: block;
+}
