@@ -366,16 +366,3 @@ footer {
 .dark-mode p, .dark-mode a {
     color: white;
 }
-.dark-mode .masked {
-    display: inline-block;
-    background-color: white;
-    -webkit-mask-size: 95%;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-    -webkit-mask-image: url('./assets/linkedin.png');
-}
-.dark-mode .masked img {
-    opacity: 0;
-    width: auto;
-    display: block;
-}
