@@ -1,3 +1,10 @@
+@media screen and (max-width: 1375px) {
+        .project__card {
+            width: 350px;
+            height: 450px;
+        }
+}
+
 @media screen and (max-width: 1200px) {
     /* NAV */
     #desktop-nav {
@@ -68,3 +75,42 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .icons-container {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    .icons-container img {
+        width: 50px;
+        height: 50px;
+    }
+    .contact__links {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 400px;
+        height: 125px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    body {
+        min-width: fit-content;
+        
+    }
+    .contact__heading {
+        width: 100%;
+    }
+    .contact__heading .title {
+        padding-right: 1.4rem;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+    .nav-links:last-child {
+        font-size: 1.5rem;
+    }
+    .projects__container {
+       justify-content: center;
+       align-items: center;
+    }
+}   
