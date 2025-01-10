@@ -9,8 +9,6 @@ Personal portfolio website for 2025.
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## About
@@ -35,10 +33,16 @@ Portfolio-v3 is a personal portfolio website showcasing projects, skills, and ex
 
 Visit live site [here](https://jashawnrogers.netlify.app/)!
 
-To run this project locally:
+## Usage
 
-1. Clone the repository:
+- Navigate through different sections using the navigation bar
+- View projects in the gallery by clicking on their thumbnails
+- Use the contact form to send messages directly from the website.
 
-   ```bash
-   git clone https://github.com/JashawnRogers/Portfolio-v3.git
+## Contact
 
+For any inquiries or feedback, please contact:
+
+- Name: Jashawn Rogers
+- Email: jashawncodes@gmail.com
+- LinkedIn: www.linkedin.com/in/jashawncodes
